@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4cfa5241f185e5d5b0a9",
-    "url": "/msngr/static/css/main.9437f405.chunk.css"
+    "revision": "48996bd33a3607c55c23",
+    "url": "/msngr/static/css/main.3e9fce6c.chunk.css"
   },
   {
-    "revision": "4cfa5241f185e5d5b0a9",
-    "url": "/msngr/static/js/main.d53afd79.chunk.js"
+    "revision": "48996bd33a3607c55c23",
+    "url": "/msngr/static/js/main.43642d11.chunk.js"
   },
   {
     "revision": "f28f40a3091298cf89d4",
@@ -172,7 +172,7 @@ self.__precacheManifest = [
     "url": "/msngr/static/media/back.91239cc8.jpg"
   },
   {
-    "revision": "4789b14bccdb774eb08c9bd2484be5c7",
+    "revision": "0acf83fccda9eb503da0354d0dae1694",
     "url": "/msngr/index.html"
   }
 ];
