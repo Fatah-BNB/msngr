@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {BrowserRouter as Router, Switch, Redirect, Route} from 'react-router-dom'
+import {HashRouter as Router, Switch, Redirect, Route} from 'react-router-dom'
 
 import Home from './pages/Home/Home'
 import Chat from './pages/Chat/Chat'
