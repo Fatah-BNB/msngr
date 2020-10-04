@@ -154,7 +154,7 @@ input::placeholder {
 }
 
 .viewItemRight2 {
-    width: 300px;
+    width: auto;
     height: auto;
     background-color: #e1f3fb;
     align-self: flex-end;
@@ -168,6 +168,28 @@ input::placeholder {
     text-align: left;
     box-shadow: 0 5px 5px #808888;
 }
+
+.imgItemRight.big{
+    transition: 0.3s;
+    position: absolute;
+    width: auto;
+    height: 80%;
+    z-index: 10;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.imgItemLeft.big{
+    transition: 0.3s;
+    position: absolute;
+    width: auto;
+    height: 80%;
+    z-index: 10;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
 
 .viewItemRight3 {
     width: 300px;

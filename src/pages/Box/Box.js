@@ -135,6 +135,15 @@ export default class Box extends Component{
         this.setState({showSticker: !this.state.showSticker})
     }
 
+    openImgRight = () =>{
+        var see = document.getElementById('imgRight')
+        see.classList.toggle('big')
+    }
+    openImgLeft = () =>{
+        var see = document.getElementById('imgLeft')
+        see.classList.toggle('big')
+    }
+
     renderListMessages = () =>{
         if(this.listMessages.length > 0){
             let viewListMessages = []
@@ -149,8 +158,8 @@ export default class Box extends Component{
                     }
                     else if(item.type === 1){
                         viewListMessages.push(
-                            <div className="viewItemRight2" key={item.timestamp}>
-                                <img className="imgItemRight" src={item.content} alt="something went wrong" />
+                            <div className="viewItemRight2" key={item.timestamp} >
+                                <img id="imgRight" className="imgItemRight" src={item.content} alt="something went wrong" title="double click to see image" onDoubleClick={this.openImgRight} />
                             </div>
                         )
                     }
@@ -196,7 +205,7 @@ export default class Box extends Component{
                                         <div className="viewPaddingLeft" />
                                     )}
                                     <div className="viewItemLeft2">
-                                        <img src={item.content} alt="content message" className="imgItemLeft" />
+                                        <img id="imgLeft" src={item.content} alt="content message" className="imgItemLeft" onDoubleClick={this.openImgLeft} />
                                     </div>
                                     </div>
                                     {this.lastMessageLeft(index) ? (
