@@ -37,6 +37,11 @@ const Images ={
     stkr28 : require('../images/stkr 28.gif'),
     stkr29 : require('../images/stkr 29.gif'),
     stkr30 : require('../images/stkr 30.gif'),
+    stkr31 : require('../images/stkr 31.gif'),
+    stkr32 : require('../images/stkr 32.gif'),
+    stkr33 : require('../images/stkr 33.gif'),
+    stkr34 : require('../images/stkr 34.gif'),
+    stkr35 : require('../images/stkr 35.gif'),
 }
 
 

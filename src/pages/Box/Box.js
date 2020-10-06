@@ -368,6 +368,11 @@ export default class Box extends Component{
                 <img className="imgSticker" src={images.stkr28} alt="sticker" onClick={()=>{this.sendMessage('stkr28', 2)}} />
                 <img className="imgSticker" src={images.stkr29} alt="sticker" onClick={()=>{this.sendMessage('stkr29', 2)}} />
                 <img className="imgSticker" src={images.stkr30} alt="sticker" onClick={()=>{this.sendMessage('stkr30', 2)}} />
+                <img className="imgSticker" src={images.stkr31} alt="sticker" onClick={()=>{this.sendMessage('stkr31', 2)}} />
+                <img className="imgSticker" src={images.stkr32} alt="sticker" onClick={()=>{this.sendMessage('stkr32', 2)}} />
+                <img className="imgSticker" src={images.stkr33} alt="sticker" onClick={()=>{this.sendMessage('stkr33', 2)}} />
+                <img className="imgSticker" src={images.stkr34} alt="sticker" onClick={()=>{this.sendMessage('stkr34', 2)}} />
+                <img className="imgSticker" src={images.stkr35} alt="sticker" onClick={()=>{this.sendMessage('stkr35', 2)}} />
             </div>
         )
     }
@@ -404,6 +409,11 @@ export default class Box extends Component{
             case 'stkr28': return images.stkr28
             case 'stkr29': return images.stkr29
             case 'stkr30': return images.stkr30
+            case 'stkr31': return images.stkr31
+            case 'stkr32': return images.stkr32
+            case 'stkr33': return images.stkr33
+            case 'stkr34': return images.stkr34
+            case 'stkr35': return images.stkr35
         }
     }
 
